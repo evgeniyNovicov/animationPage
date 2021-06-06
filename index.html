@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/fonts/Bebas-Neue/stylesheet.css">
+    <link rel="stylesheet" href="css/fonts/ProximaNova/light/style.css">
+    <link rel="stylesheet" href="css/fonts/ProximaNova/regular/style.css">
+    <link rel="stylesheet" href="css/fonts/ProximaNova/bold/style.css">
+    <link rel="stylesheet" href="css/fonts/ProximaNova/extrabold/style.css">
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="css/fonts/Gilroy/bold/style.css">
+    <link rel="stylesheet" href="css/fonts/Gilroy/extrabold/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Engineering Diagnostics</title>
+</head>
+
+<body>
+    <main class="main">
+        <header class="header" style="background-image: url('images/block1/mainBackground.png')">
+            <div class="background">
+                <div class="header__line"></div>
+                <div class="menu_wrap">
+                    <div class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a data-goto='.features' href="#" class="menu-item__link">О нас</a>
+                            </li>
+                            <li class="menu__item">
+                                <a data-goto='.services' href="#" class="menu-item__link">Услуги</a>
+                            </li>
+                            <li class="menu__item">
+                                <a data-goto='.complex' href="#" class="menu-item__link">Наш комплекс</a>
+                            </li>
+                            <li class="menu__item">
+                                <a data-goto='.step1' href="#" class="menu-item__link">Шаг 1</a>
+                            </li>
+                            <li class="menu__item">
+                                <a data-goto='.step2' href="#" class="menu-item__link">Шаг 2</a>
+                            </li>
+                            <li class="menu__item">
+                                <a data-goto='.step3' href="#" class="menu-item__link">Шаг 3</a>
+                            </li>
+                        </ul>
+                        <div class="background--black"></div>
+                        <div class="button--close">
+                            <div class="close__line close__line--left"></div>
+                            <div class="close__line close__line--right"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="header--top">
+                        <div class="header--top__block">
+                            <div class="menu-burger">
+                                <div class="menu-burger__item"></div>
+                                <div class="menu-burger__item--center">
+                                    <div class="item--center__line"></div>
+                                    <div class="item--center__line"></div>
+                                </div>
+                                <div class="menu-burger__item"></div>
+                            </div>
+                            <a href="#" class="header__logo">
+                                <img class="logo-image" src="images/block1/Logo.svg" alt="image">
+                            </a>
+                        </div>
+                        <div class="contact-box">
+                            <div class="social-box">
+                                <div class="social-box__text">
+                                    Пишите нам на email
+                                </div>
+                                <a class="social-box__link_wrap" href="#">
+                                    <img class="social-box__image" src="images/block1/emailIcon.svg" alt="image">
+                                    <div class="social-box__link">
+                                        info@diagnistics.by
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="tel-box">
+                                <div class="tel-box__text_wrap">
+                                    <img class="tel-box__image" src="images/block1/telIcon.svg" alt="image">
+                                    <div class="tel-box__text">
+                                        Есть вопросы? Звоните!
+                                    </div>
+                                </div>
+                                <a class="tel-box__numb" href="tel: +375 (29) 456-45-45">
+                                    +375 (29) 456-45-45
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-content">
+                        <div class="header-content__inner">
+                            <div class="header-content__box--left">
+                                <h1 class="box--left__title _anim-items">
+                                    Независимое обследование зданий и сооружений
+                                </h1>
+                                <p class="box--left__text _anim-items">
+                                    антенн, труб, теплосетей, канализаций и других объектов строительства
+                                </p>
+                            </div>
+                            <div class="header-content__box--right">
+                                <button class="box--right__button _anim-items">получить коммерческое</button>
+                                <p class="box--right__text _anim-items">
+                                    Отправьте техзадание и получите коммерческое предложение в течении 15 минут на свой
+                                    email или в мессенджер
+                                </p>
+                            </div>
+                        </div>
+                        <div class="header-content__line--left"></div>
+                        <div class="header-content__line--right"></div>
+                        <div class="header__box--bottom">
+                            <div class="box--bottom__list">
+                                <div class="header-box__item _anim-items">
+                                    <img class="box-item__image" src="images/block1/01.svg" alt="image">
+                                    <div class="box-item__text">Начинаем работать без аванса</div>
+                                </div>
+                                <div class="header-box__item _anim-items">
+                                    <img class="box-item__image" src="images/block1/02.svg" alt="image">
+                                    <div class="box-item__text">Предоставляем отсрочку платежа</div>
+                                </div>
+                                <div class="header-box__item _anim-items">
+                                    <img class="box-item__image" src="images/block1/03.svg" alt="image">
+                                    <div class="box-item__text">Всегда называем справедливую цену</div>
+                                </div>
+                            </div>
+                            <a href="#" class="box--bottom__video_wrap">
+                                <div class="box--bottom__video">
+                                    <img class="box--bottom__image-text" src="images/block1/videoText.svg" alt="image">
+                                    <img class="box--bottom__image" src="images/block1/videoMan.png" alt="image">
+                                    <img class="box--bottom__image-icon" src="images/block1/videoPlay.svg" alt="image">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="features">
+            <div class="container">
+                <div class="features-content">
+                    <div class="features__block--left">
+                        <div class="features--left__title _anim-items element-hide--left">
+                            Мы работаем быстро <br> и наши отчеты проходят согласование с первого раза
+                        </div>
+                        <div class="features--left__text _anim-items element-hide--left">
+                            Над вашим объектом работает целая команда: 3 ГИПа (главных инженеров проектов) с опытом
+                            работы от 6 лет и 2 штатных сотрудника для камеральных работ
+                        </div>
+                    </div>
+                    <img class="features__image _anim-items" src="images/block2/main.png" alt="image">
+                    <div class="features__block--right">
+                        <div class="features--right__title _anim-items element-hide--right">
+                            Вы и Ваши архитекторы получаете:
+                        </div>
+                        <div class="features-list">
+                            <div class="features-list__item _anim-items element-hide--right">
+                                <div class="features-list__icon">
+                                    <img src="images/block2/iconDescription.svg" alt="image" class="features-list__image">
+                                </div>
+                                <div class="features-list__text">Отчет на который на 100% можно положиться </div>
+                            </div>
+                            <div class="features-list__item _anim-items element-hide--right">
+                                <div class="features-list__icon">
+                                    <img src="images/block2/iconDescription.svg" alt="image" class="features-list__image">
+                                </div>
+                                <div class="features-list__text">Экономию времени и прогнозируемость сроков</div>
+                            </div>
+                            <div class="features-list__item _anim-items element-hide--right">
+                                <div class="features-list__icon">
+                                    <img src="images/block2/iconDescription.svg" alt="image" class="features-list__image">
+                                </div>
+                                <div class="features-list__text">Предварительные результаты сразу на месте</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services" style="background-image: url(images/block3/main.png);">
+            <div class="services__line line1"></div>
+            <div class="services__line line2"></div>
+            <div class="services__line line3"></div>
+            <div class="services__line line4"></div>
+            <div class="background services-background">
+                <div class="container">
+                    <div class="services__title _anim-items element-hide--center">Услуги</div>
+                    <div class="services__subtitle _anim-items element-hide--center">
+                        Выполняем как комплексное обследование, так и отдельные виды работ
+                    </div>
+                </div>
+                <div class="services__list_wrap">
+                    <div class="services__list _anim-items element-hide--right">
+                        <div class="services-item">
+                            <img class="services-item__image" src="images/block3/photo1.png" alt="image">
+                            <div class="services-item__title">Общее обследование</div>
+                            <div class="services-item__text">
+                                Экспертиза отдельных конструкций, обмерные работы, определение прочности, расчет несущей
+                                способности и т.д.
+                            </div>
+                            <a href="#" class="services-item__link">Подробнее</a>
+                        </div>
+                        <div class="services-item">
+                            <img class="services-item__image" src="images/block3/photo2.png" alt="image">
+                            <div class="services-item__title">Тепловизионная съемка</div>
+                            <div class="services-item__text">
+                                Исследование системы отопления, вентиляции и кондиционирования, а также оценка
+                                энергоэффективности здания
+                            </div>
+                            <a href="#" class="services-item__link">Подробнее</a>
+                        </div>
+                        <div class="services-item">
+                            <img class="services-item__image" src="images/block3/photo3.png" alt="image">
+                            <div class="services-item__title">Телеинспекция инженерных сетей</div>
+                            <div class="services-item__text">
+                                Цветная телевизионная съемка внутренней поверхности любых протяженных объектов до 250
+                                метров
+                            </div>
+                            <a href="#" class="services-item__link">Подробнее</a>
+                        </div>
+                        <div class="services-item">
+                            <img class="services-item__image" src="images/block3/photo4.png" alt="image">
+                            <div class="services-item__title">Тахеометрическая съемка</div>
+                            <div class="services-item__text">
+                                Построение чертежей при помощи лазера, который с точностью до микрона определяет
+                                расположение объектов в пространстве
+                            </div>
+                            <a href="#" class="services-item__link">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="progreess-bar"></div>
+            </div>
+        </section>
+        <section class="complex">
+            <div class="container complex-container">
+                <h1 class="complex__title _anim-items element-hide--center">Мы работаем в комплексе</h1>
+                <p class="complex__text _anim-items element-hide--center">чтобы Вы не тратили время на поиск и организацию множества подрядчиков</p>
+            </div>
+        </section>
+        <section class="step1">
+            <div class="slider-image_wrap _anim-items element-hide--left">
+                <div class="slider-image">
+                    <div class="step1__image_wrap">
+                        <div class="step1__image_inner" >
+                            <img class="step1__image--main" src="images/block5/main.png" alt="image">
+                        </div>
+                    </div>
+                    <div class="step1__image_wrap">
+                        <div class="step1__image_inner" >
+                            <img class="step1__image--main" src="images/block5/main.png" alt="image">
+                        </div>
+                    </div>
+                    <div class="step1__image_wrap">
+                        <div class="step1__image_inner" >
+                            <img class="step1__image--main" src="images/block5/main.png" alt="image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="step1-block _anim-items element-hide--right">
+                <h1 class="step__title"><span>шаг №1.</span>Подготовительные работы</h1>
+                <p class="step1-box__text">Мы осматриваем здание, делаем замеры и проверяем наличие визуально заметных
+                    дефектов: трещин, коррозии, повреждения фундамента и т.д. </p>
+                <div class="step1-box--task">
+                    <div class="box--task__image_wrap">
+                        <img class="box--task__image" src="images/block5/logo.png" alt="image">
+                    </div>
+                    <div class="box--task__info">
+                        <div class="task-info__text">“Задача этого этапа получить максимально полное представление о
+                            конструкции здания, условиях его эксплуатации и возможных слабых местах“</div>
+                        <div class="task-info__text--name"><span>Алексей</span>, обследователь и главный инженер
+                            проектов</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="step2">
+            <div class="container">
+                <div class="step2-info">
+                    <div class="step2__title_wrap">
+                        <span>шаг №2.</span>
+                        <h1 class="step2__title">Детальное инструментальное обследование</h1>
+                    </div>
+                    <p class="step2__text">
+                        Мы понимаем насколько важны сроки и сколько может стоить день задержки. Поэтому Вы никогда
+                        не услышите от нас слов “надо подождать пару дней, пока освободится арендное оборудование”
+                        - мы укомплектованы всем необходимым
+                    </p>
+                </div>
+            </div>
+            <div class="slider-instruments _anim-items element-hide--right">
+                <div class="step2__list">
+                    <div class="step2__box">
+                        <img src="images/block6/photo1.png" alt="image" class="step2-box__image">
+                        <div class="step2-box__name">Локатор арматуры “Profoscope”</div>
+                    </div>
+                    <div class="step2__box">
+                        <img src="images/block6/photo2.png" alt="image" class="step2-box__image">
+                        <div class="step2-box__name">Измеритель прочности бетона “ОНИКС-1”</div>
+                    </div>
+                    <div class="step2__box">
+                        <img src="images/block6/photo3.png" alt="image" class="step2-box__image">
+                        <div class="step2-box__name">Прибор ультразвукового действия “ПУЛЬСАР-2”</div>
+                    </div>
+                    <div class="step2__box">
+                        <img src="images/block6/photo4.png" alt="image" class="step2-box__image">
+                        <div class="step2-box__name">Измеритель прочности бетона “Молоток Шмидта”
+                        </div>
+                    </div>
+                    <div class="step2__box">
+                        <img src="images/block6/photo1.png" alt="image" class="step2-box__image">
+                        <div class="step2-box__name">Локатор арматуры “Profoscope”</div>
+                    </div>
+                    <div class="step2__box">
+                        <img src="images/block6/photo1.png" alt="image" class="step2-box__image">
+                        <div class="step2-box__name">Локатор арматуры “Profoscope”</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="step3">
+            <div class="step3-block _anim-items element-hide--left">
+                <div class="step3-block_inner">
+                    <h1 class="step__title"><span>шаг №3.</span>Обработка полученных данных</h1>
+                    <p class="step3-box__text">Детальный отчет с <span>результатами обследования <br></span>
+                        Вы получите через 7 дней. И на его основании сможете определить судьбу объекта и прогнозировать
+                        затраты
+                    </p>
+                    <div class="step3-list">
+                        <div class="step3-list__item">
+                            <img src="images/block6/icon.svg" alt="image" class="step3-list__image">
+                            <div class="step3-list__text">Мы оценим техническое состояние объекта и присвоим ему
+                                категорию</div>
+                        </div>
+                        <div class="step3-list__item">
+                            <img src="images/block6/icon.svg" alt="image" class="step3-list__image">
+                            <div class="step3-list__text">Объясним причины появления дефектов и повреждений в
+                                конструкциях</div>
+                        </div>
+                        <div class="step3-list__item">
+                            <img src="images/block6/icon.svg" alt="image" class="step3-list__image">
+                            <div class="step3-list__text">Сформируем техзадание на проектирование мероприятий по
+                                восстановлению, усилению или ремонту конструкций, оборудования и сетей</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="step3__image_wrap _anim-items element-hide--right">
+                <img class="step3__image--main" src="images/block7/main.png" alt="image">
+            </div>
+        </section>
+    </main>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+        crossorigin="anonymous"></script>
+        <!-- <script src="js/jquery.jInvertScroll.js"></script> -->
+    <!-- <script src="js/horwheel.min.js"></script> -->
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
